@@ -1,5 +1,7 @@
 package viewnote;
 
+import dto.User;
+
 public interface ViewNoteModelCallback {
-    void viewNotes(String username);
+    void viewNotes(User user);
 }

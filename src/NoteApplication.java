@@ -1,5 +1,8 @@
+import starting.StartingView;
+
 public class NoteApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        StartingView startingView = new StartingView();
+        startingView.startingView();
     }
 }

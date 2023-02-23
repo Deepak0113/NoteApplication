@@ -17,4 +17,12 @@ public class User {
     public String getUserName() {
         return userName;
     }
+
+    public List<String> getNoteIds() {
+        return noteIds;
+    }
+
+    public void setNoteIds(List<String> noteIds) {
+        this.noteIds = noteIds;
+    }
 }

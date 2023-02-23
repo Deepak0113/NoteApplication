@@ -1,5 +1,6 @@
 package deletenote;
 
+import dto.User;
 import repository.Repository;
 import statuscalls.NoteStatusCall;
 
@@ -11,12 +12,12 @@ public class DeleteNoteModel implements DeleteNoteModelCallback {
     }
 
     @Override
-    public void deleteNode(String noteId, String username) {
-        NoteStatusCall noteStatusCall = Repository.getInstance().deleteNote(noteId, username);
+    public void deleteNode(String noteId, User user) {
+        NoteStatusCall noteStatusCall = Repository.getInstance().deleteNote(noteId, user.getUserName());
 
         switch (noteStatusCall.getStatus()){
-            case "SUCCESS" -> deleteNoteController.deleteNoteSuccessful();
-            case "NOT EXIST" -> deleteNoteController.deleteNoteWarning("Note doesn't exist");
+            case "DELETED" -> deleteNoteController.deleteNoteSuccessful(user);
+            case "NOT EXIST" -> deleteNoteController.deleteNoteWarning(user, "Note doesn't exist");
         }
     }
 }

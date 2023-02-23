@@ -1,6 +1,7 @@
 package signup;
 
 import login.LoginView;
+import starting.StartingView;
 
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class SignupView implements SignupViewCallback {
     }
 
     public void createUser(){
-        System.out.println("Signup");
+        System.out.println("\nSignup");
         System.out.println("------------------------------");
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
@@ -32,13 +33,15 @@ public class SignupView implements SignupViewCallback {
 
     @Override
     public void signupUserSuccessfully() {
-        System.out.println("Signed up successfully.");
-        LoginView loginView = new LoginView();
-        loginView.userLogin();
+        System.out.println("\nSigned up successfully. Login to continue.");
+        StartingView startingView = new StartingView();
+        startingView.startingView();
     }
 
     @Override
     public void signupUserWarning(String message) {
-        System.out.println("Signing up failed. " + message);
+        System.out.println("\nSigning up failed. " + message);
+        StartingView startingView = new StartingView();
+        startingView.startingView();
     }
 }

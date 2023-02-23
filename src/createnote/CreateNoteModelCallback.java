@@ -1,5 +1,7 @@
 package createnote;
 
-public interface CreateNoteModelCallback {
+import dto.User;
 
+public interface CreateNoteModelCallback {
+    void createNewNote(String noteTitle, User user);
 }

@@ -1,6 +1,7 @@
 package viewnote;
 
-public interface ViewNoteViewControllerCallback {
+import dto.User;
 
-    void viewNotes(String username);
+public interface ViewNoteViewControllerCallback {
+    void viewNotes(User user);
 }

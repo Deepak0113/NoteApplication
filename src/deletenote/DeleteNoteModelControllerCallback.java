@@ -1,6 +1,8 @@
 package deletenote;
 
+import dto.User;
+
 public interface DeleteNoteModelControllerCallback {
-    void deleteNoteSuccessful();
-    void deleteNoteWarning(String error);
+    void deleteNoteSuccessful(User user);
+    void deleteNoteWarning(User user, String error);
 }

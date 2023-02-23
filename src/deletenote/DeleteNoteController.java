@@ -1,5 +1,7 @@
 package deletenote;
 
+import dto.User;
+
 public class DeleteNoteController implements DeleteNoteViewControllerCallback, DeleteNoteModelControllerCallback {
     private DeleteNoteViewCallback deleteNoteView;
     private DeleteNoteModelCallback deleteNoteModel;
@@ -10,17 +12,17 @@ public class DeleteNoteController implements DeleteNoteViewControllerCallback, D
     }
 
     @Override
-    public void deleteNote(String noteId, String username) {
-        deleteNoteModel.deleteNode(noteId, username);
+    public void deleteNote(String noteId, User user) {
+        deleteNoteModel.deleteNode(noteId, user);
     }
 
     @Override
-    public void deleteNoteSuccessful() {
-        deleteNoteView.deleteNoteSuccessful();
+    public void deleteNoteSuccessful(User user) {
+        deleteNoteView.deleteNoteSuccessful(user);
     }
 
     @Override
-    public void deleteNoteWarning(String error) {
-        deleteNoteView.deleteNoteWarning(error);
+    public void deleteNoteWarning(User user, String error) {
+        deleteNoteView.deleteNoteWarning(user, error);
     }
 }

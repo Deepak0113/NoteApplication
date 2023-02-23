@@ -2,16 +2,15 @@ package statuscalls;
 
 import dto.User;
 
-public class UserStatusCall {
-    String status;
+public class UserStatusCall extends Status{
     User user;
 
     public UserStatusCall(String status){
-        this.status = status;
+        super(status);
     }
 
     public UserStatusCall(String status, User user){
-        this.status = status;
+        super(status);
         this.user = user;
     }
 

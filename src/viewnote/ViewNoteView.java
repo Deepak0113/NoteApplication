@@ -1,16 +1,47 @@
 package viewnote;
 
-public class ViewNoteView implements ViewNoteViewCallback {
-    private ViewNoteViewControllerCallback viewNoteController;
+import dto.User;
+import home.HomeView;
 
-    ViewNoteView() {
+import java.util.List;
+
+public class ViewNoteView implements ViewNoteViewCallback {
+    private final ViewNoteViewControllerCallback viewNoteController;
+
+    public ViewNoteView() {
         viewNoteController = new ViewNoteController(this);
     }
 
-    void viewNotes(String username){
-        System.out.println("My notes");
+    public void startViewNotesModule(User user){
+        System.out.println("\nMy notes");
         System.out.println("------------------------------");
+        viewNoteController.viewNotes(user);
+    }
 
-        viewNoteController.viewNotes(username);
+    @Override
+    public void viewNoteSuccess(User user, List<String> noteIds) {
+        int count = 0;
+        for(String noteId: noteIds){
+            System.out.print(noteId+" ");
+            count++;
+            if(count%10 == 0) {
+                System.out.println();
+                count=0;
+            }
+        }
+        gotoHomeModule(user);
+    }
+
+    @Override
+    public void viewNotesWarning(User user, String message) {
+        System.out.println(message);
+        gotoHomeModule(user);
+    }
+
+    /*------ NAVIGATION ------*/
+
+    private void gotoHomeModule(User user){
+        HomeView homeView = new HomeView();
+        homeView.startHomeModule(user);
     }
 }

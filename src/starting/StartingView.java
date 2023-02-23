@@ -9,7 +9,7 @@ public class StartingView implements StartingViewCallback {
     private final Scanner scanner = new Scanner(System.in);
     private final StartingViewControllerCallback startingController;
 
-    StartingView() {
+    public StartingView() {
         startingController = new StartingController(this);
     }
 
@@ -18,8 +18,11 @@ public class StartingView implements StartingViewCallback {
         startingView.startingView();
     }
 
-    void startingView() {
-        System.out.println("Welcome to NoteTaker");
+    /*------ NAVIGATION ------*/
+
+
+    public void startingView() {
+        System.out.println("\nWelcome to NoteTaker");
         System.out.println("------------------------------");
         System.out.println("1. Login");
         System.out.println("2. SignUp");

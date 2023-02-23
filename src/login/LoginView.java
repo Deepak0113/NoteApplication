@@ -1,6 +1,8 @@
 package login;
 
 import dto.User;
+import home.HomeView;
+import starting.StartingView;
 
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class LoginView implements LoginViewCallback {
     }
 
     public void userLogin(){
-        System.out.println("Login");
+        System.out.println("\nLogin");
         System.out.println("------------------------------");
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
@@ -30,12 +32,16 @@ public class LoginView implements LoginViewCallback {
 
     @Override
     public void userLoginSuccess(User user) {
-        System.out.println("Logged in successfully");
+        System.out.println("\nLogged in successfully");
         System.out.println("Welcome " + user.getUserName());
+        HomeView homeView = new HomeView();
+        homeView.startHomeModule(user);
     }
 
     @Override
     public void userLoginWarning(String message) {
-        System.out.println("Login failed. " + message);
+        System.out.println("\nLogin failed. " + message);
+        StartingView startingView = new StartingView();
+        startingView.startingView();
     }
 }

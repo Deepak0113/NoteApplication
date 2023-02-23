@@ -3,10 +3,17 @@ package dto;
 import java.util.List;
 
 public class Note {
-    String noteId;
-    String noteTitle;
-    String notePath;
-    List<String> noteKeyWords;
+    private String noteId;
+    private String noteTitle;
+    private String notePath;
+    private List<String> noteKeyWords;
+
+    public Note(String noteId, String noteTitle, String notePath, List<String> noteKeyWords) {
+        this.noteId = noteId;
+        this.noteTitle = noteTitle;
+        this.notePath = notePath;
+        this.noteKeyWords = noteKeyWords;
+    }
 
     public String getNoteId() {
         return noteId;
