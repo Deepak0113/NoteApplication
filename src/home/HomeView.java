@@ -44,9 +44,9 @@ public class HomeView implements HomeViewCallback {
     }
 
     @Override
-    public void gotoOpenNote(){
+    public void gotoOpenNote(User user){
         OpenNoteView openNoteModel = new OpenNoteView();
-        openNoteModel.startOpenNoteModule();
+        openNoteModel.startOpenNoteModule(user);
     }
 
     @Override

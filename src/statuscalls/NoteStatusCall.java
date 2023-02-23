@@ -5,6 +5,7 @@ import java.util.List;
 public class NoteStatusCall extends Status{
     String filePath;
     List<String> noteIds;
+    String note;
 
     public NoteStatusCall(String status){
         super(status);
@@ -20,6 +21,11 @@ public class NoteStatusCall extends Status{
         this.noteIds = noteIds;
     }
 
+    public NoteStatusCall(String status, StringBuilder stringBuilder){
+        super(status);
+        this.note = stringBuilder.toString();
+    }
+
     public String getStatus() {
         return status;
     }
@@ -30,5 +36,9 @@ public class NoteStatusCall extends Status{
 
     public List<String> getNoteIds() {
         return noteIds;
+    }
+
+    public String getNote() {
+        return note;
     }
 }

@@ -6,39 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="543ad5f6-20c4-469b-b6ee-8b1368610912" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NoteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoteApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteModelCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteModelCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteModelControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteViewCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createnote/CreateNoteViewControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createnote/CreateNoteViewControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteModelCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteModelCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteModelControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteViewCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deletenote/DeleteNoteViewControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletenote/DeleteNoteViewControllerCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/a/a1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/asserts/notes/a/a1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/a/a2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/b/b1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/q/q2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/r/r1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/z/z1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/asserts/notes/z/z1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/z/z2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dto/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/LoginModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/LoginModelControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/HomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/HomeViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeViewCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModelCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModelCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModelControllerCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteViewCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteViewControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteViewControllerCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/signup/SignupView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/signup/SignupView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/starting/StartingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/starting/StartingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/starting/StartingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/starting/StartingView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/statuscalls/NoteStatusCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statuscalls/NoteStatusCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statuscalls/UserStatusCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statuscalls/UserStatusCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteModelCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteModelCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteModelControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteViewCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewnote/ViewNoteViewControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewnote/ViewNoteViewControllerCallback.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,15 +62,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/learn/JavaTesting",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/learn/JavaTesting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

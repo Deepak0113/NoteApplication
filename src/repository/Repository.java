@@ -6,17 +6,10 @@ import dto.User;
 import statuscalls.NoteStatusCall;
 import statuscalls.UserStatusCall;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import java.nio.file.Files;
 
 public class Repository {
     private static Repository repository;
@@ -86,6 +79,46 @@ public class Repository {
         return new NoteStatusCall("SUCCESS", noteIds);
     }
 
+    public NoteStatusCall getNote(String noteId, User user) {
+        if(!notesTable.containsKey(noteId))
+            return new NoteStatusCall("NOT EXIST");
+        Note note = notesTable.get(noteId);
+        String path = note.getNotePath();
+        StringBuilder stringBuilder = null;
+
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(path));
+            stringBuilder = new StringBuilder();
+            String line = reader.readLine();
+
+            while (line != null) {
+                stringBuilder.append(line);
+                stringBuilder.append(System.lineSeparator());
+                line = reader.readLine();
+            }
+            
+            reader.close();
+        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
+        }
+        
+        return new NoteStatusCall("SUCCESS", stringBuilder);
+    }
+
+    public NoteStatusCall saveNote(String noteId, User user, String text) {
+        Note note = notesTable.get(noteId);
+        String titleCurr = note.getNoteTitle();
+        String title = text.substring(0, text.indexOf(" "));
+
+        if(titleCurr.equals(title)){
+            note.setNoteTitle(title.equals("") ? "untitled" : title);
+        }
+
+        writeFile(noteId+fileExt, text);
+
+        return new NoteStatusCall("SUCCESS");
+    }
+
 
     /*------ USERS TABLE ------*/
 
@@ -121,8 +154,6 @@ public class Repository {
     void createFile(String filePath, String noteTitle){
         try {
             File file = new File(filePath);
-            file.setWritable(true);
-            file.setReadable(true);
             file.createNewFile();
             writeFile(filePath, noteTitle);
 

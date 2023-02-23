@@ -17,7 +17,7 @@ public class HomeController implements HomeViewControllerCallback, HomeModelCont
     public void chooseOption(int option, User user) {
         switch (option){
             case 1 -> homeView.gotoCreateNote();
-            case 2 -> homeView.gotoOpenNote();
+            case 2 -> homeView.gotoOpenNote(user);
             case 3 -> homeView.gotoViewNote(user);
             case 4 -> homeView.deleteNode();
             case 5 -> homeView.gotoStart();

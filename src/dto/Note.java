@@ -30,4 +30,8 @@ public class Note {
     public List<String> getNoteKeyWords() {
         return noteKeyWords;
     }
+
+    public void setNoteTitle(String noteTitle) {
+        this.noteTitle = noteTitle;
+    }
 }
