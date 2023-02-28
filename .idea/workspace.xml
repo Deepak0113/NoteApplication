@@ -6,26 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="543ad5f6-20c4-469b-b6ee-8b1368610912" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/a/a1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/asserts/notes/a/a1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/a/a2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/b/b1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/q/q2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/r/r1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/z/z1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/asserts/notes/z/z1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asserts/notes/z/z2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomeViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/HomeViewCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/1/11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/5/51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/a/a1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/d/d1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/w/w1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asserts/notes/z/z1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModelCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModelCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteModelControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteModelControllerCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteViewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteViewCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opennote/OpenNoteViewControllerCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/opennote/OpenNoteViewControllerCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statuscalls/NoteStatusCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statuscalls/NoteStatusCall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

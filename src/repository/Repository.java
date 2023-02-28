@@ -110,11 +110,12 @@ public class Repository {
         String titleCurr = note.getNoteTitle();
         String title = text.substring(0, text.indexOf(" "));
 
-        if(titleCurr.equals(title)){
-            note.setNoteTitle(title.equals("") ? "untitled" : title);
-        }
+//        if(titleCurr.equals(title)){
+//            note.setNoteTitle(title.equals("") ? "untitled" : title);
+//        }
 
-        writeFile(noteId+fileExt, text);
+        String filepath = notesPath + user.getUserName()+"/" + noteId + fileExt;
+        writeFile(filepath, text);
 
         return new NoteStatusCall("SUCCESS");
     }

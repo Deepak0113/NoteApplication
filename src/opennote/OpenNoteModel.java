@@ -23,6 +23,7 @@ public class OpenNoteModel implements OpenNoteModelCallback {
 
     @Override
     public boolean saveNote(String noteId, User user, String text) {
+        System.out.println(text);
         NoteStatusCall noteStatusCall = Repository.getInstance().saveNote(noteId, user, text);
 
         switch (noteStatusCall.getStatus()){
